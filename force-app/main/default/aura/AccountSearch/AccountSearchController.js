@@ -5,7 +5,7 @@
         helper.handleSearch( component, searchTerm );
     },
     onSearchTermChange: function( component, event, helper ) {
-        console.log('inside onSearchTermChange');
+        //console.log('inside onSearchTermChange');
         // search anytime the term changes
         var searchTerm = component.get( "v.searchTerm" );
         // to improve performance, particularly for fast typers,

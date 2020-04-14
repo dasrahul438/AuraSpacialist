@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+    <testsuite name="force.apex" timestamp="2020-04-10T12:02:44+05:30" hostname="https://curious-wolf-5cvo28-dev-ed.my.salesforce.com" tests="1" failures="0"  errors="0"  time="0.76">
+        <properties>
+            <property name="outcome" value="Passed"/>
+            <property name="testsRan" value="1"/>
+            <property name="passing" value="1"/>
+            <property name="failing" value="0"/>
+            <property name="skipped" value="0"/>
+            <property name="passRate" value="100%"/>
+            <property name="failRate" value="0%"/>
+            <property name="testStartTime" value="Apr 10, 2020 12:02 PM"/>
+            <property name="testExecutionTime" value="0.76 s"/>
+            <property name="testTotalTime" value="0.76 s"/>
+            <property name="commandTime" value="6.48 s"/>
+            <property name="hostname" value="https://curious-wolf-5cvo28-dev-ed.my.salesforce.com"/>
+            <property name="orgId" value="00D2w000003zXUDEA2"/>
+            <property name="username" value="rahul.das@curious-wolf-5cvo28.com"/>
+            <property name="testRunId" value="7072w00000Kn5zc"/>
+            <property name="userId" value="0052w000002vVGlAAM"/>
+        </properties>
+        <testcase name="fourCasesTodayAccount" classname="MaxCasesTest" time="0.76">
+        </testcase>
+    </testsuite>
+</testsuites>

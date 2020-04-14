@@ -1,6 +1,4 @@
 public with sharing class PickListController{
-	public PickListController(){
-	}
 
 	@AuraEnabled
 	public static List<String> getPickListValuesIntoList(String objectType, String selectedField){

@@ -29,7 +29,7 @@
     component.set("v.rows", event.getParam("accounts"));
   },
   onRowAction: function( component, event, helper ) {
-    var action = event.getParam( 'action' );
+    var action = event.getParam('action' );
     var row = event.getParam( 'row' );
     if ( action.name == 'view_details' ) {
         var navigation = component.find( 'navigation' );

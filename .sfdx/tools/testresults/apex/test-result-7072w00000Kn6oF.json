@@ -1,0 +1,46 @@
+{
+    "summary": {
+        "outcome": "Failed",
+        "testsRan": 1,
+        "passing": 0,
+        "failing": 1,
+        "skipped": 0,
+        "passRate": "0%",
+        "failRate": "100%",
+        "testStartTime": "Apr 10, 2020 12:01 PM",
+        "testExecutionTime": "256 ms",
+        "testTotalTime": "256 ms",
+        "commandTime": "5381 ms",
+        "hostname": "https://curious-wolf-5cvo28-dev-ed.my.salesforce.com",
+        "orgId": "00D2w000003zXUDEA2",
+        "username": "rahul.das@curious-wolf-5cvo28.com",
+        "testRunId": "7072w00000Kn6oF",
+        "userId": "0052w000002vVGlAAM"
+    },
+    "tests": [
+        {
+            "attributes": {
+                "type": "ApexTestResult",
+                "url": "/services/data/v48.0/tooling/sobjects/ApexTestResult/07M2w000000mXGEEA2"
+            },
+            "Id": "07M2w000000mXGEEA2",
+            "QueueItemId": "7092w000000gSC7AAM",
+            "StackTrace": "Class.MaxCasesTest.fourCasesTodayAccount: line 62, column 1",
+            "Message": "System.AssertException: Assertion Failed: case status same as updated case status: Expected: Closed, Actual: New",
+            "AsyncApexJobId": "7072w00000Kn6oFAAR",
+            "MethodName": "fourCasesTodayAccount",
+            "Outcome": "Fail",
+            "ApexClass": {
+                "attributes": {
+                    "type": "ApexClass",
+                    "url": "/services/data/v48.0/tooling/sobjects/ApexClass/01p2w00000AafmeAAB"
+                },
+                "Id": "01p2w00000AafmeAAB",
+                "Name": "MaxCasesTest",
+                "NamespacePrefix": null
+            },
+            "RunTime": 256,
+            "FullName": "MaxCasesTest.fourCasesTodayAccount"
+        }
+    ]
+}

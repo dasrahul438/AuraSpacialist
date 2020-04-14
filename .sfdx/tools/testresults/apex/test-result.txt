@@ -3,13 +3,13 @@ FORMAT  FILE
 ──────  ────────────────────────────────────────────────────────────────────────────────────────────────────────
 txt     d:\Salesforce\lwc\Aura\AuraSpacialist\.sfdx\tools\testresults\apex\test-result.txt
 txt     d:\Salesforce\lwc\Aura\AuraSpacialist\.sfdx\tools\testresults\apex\test-run-id.txt
-junit   d:\Salesforce\lwc\Aura\AuraSpacialist\.sfdx\tools\testresults\apex\test-result-7072w00000H7uWo-junit.xml
-json    d:\Salesforce\lwc\Aura\AuraSpacialist\.sfdx\tools\testresults\apex\test-result-7072w00000H7uWo.json
+junit   d:\Salesforce\lwc\Aura\AuraSpacialist\.sfdx\tools\testresults\apex\test-result-7072w00000Kp2Jf-junit.xml
+json    d:\Salesforce\lwc\Aura\AuraSpacialist\.sfdx\tools\testresults\apex\test-result-7072w00000Kp2Jf.json
 
 === Test Results
-TEST NAME               OUTCOME  MESSAGE  RUNTIME (MS)
-──────────────────────  ───────  ───────  ────────────
-GenerateDataTests.test  Pass              928
+TEST NAME                             OUTCOME  MESSAGE  RUNTIME (MS)
+────────────────────────────────────  ───────  ───────  ────────────
+ManagingApex1Test.testBasicOperation  Pass              493
 
 === Test Summary
 NAME                 VALUE
@@ -21,13 +21,13 @@ Failing              0
 Skipped              0
 Pass Rate            100%
 Fail Rate            0%
-Test Start Time      Mar 31, 2020 1:44 PM
-Test Execution Time  928 ms
-Test Total Time      928 ms
-Command Time         17178 ms
+Test Start Time      Apr 14, 2020 10:42 AM
+Test Execution Time  493 ms
+Test Total Time      493 ms
+Command Time         6154 ms
 Hostname             https://curious-wolf-5cvo28-dev-ed.my.salesforce.com
 Org Id               00D2w000003zXUDEA2
 Username             rahul.das@curious-wolf-5cvo28.com
-Test Run Id          7072w00000H7uWo
+Test Run Id          7072w00000Kp2Jf
 User Id              0052w000002vVGlAAM
 

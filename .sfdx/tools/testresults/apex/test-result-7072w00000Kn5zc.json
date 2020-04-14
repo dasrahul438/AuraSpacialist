@@ -1,0 +1,46 @@
+{
+    "summary": {
+        "outcome": "Passed",
+        "testsRan": 1,
+        "passing": 1,
+        "failing": 0,
+        "skipped": 0,
+        "passRate": "100%",
+        "failRate": "0%",
+        "testStartTime": "Apr 10, 2020 12:02 PM",
+        "testExecutionTime": "760 ms",
+        "testTotalTime": "760 ms",
+        "commandTime": "6478 ms",
+        "hostname": "https://curious-wolf-5cvo28-dev-ed.my.salesforce.com",
+        "orgId": "00D2w000003zXUDEA2",
+        "username": "rahul.das@curious-wolf-5cvo28.com",
+        "testRunId": "7072w00000Kn5zc",
+        "userId": "0052w000002vVGlAAM"
+    },
+    "tests": [
+        {
+            "attributes": {
+                "type": "ApexTestResult",
+                "url": "/services/data/v48.0/tooling/sobjects/ApexTestResult/07M2w000000mXGOEA2"
+            },
+            "Id": "07M2w000000mXGOEA2",
+            "QueueItemId": "7092w000000gSCCAA2",
+            "StackTrace": null,
+            "Message": null,
+            "AsyncApexJobId": "7072w00000Kn5zcAAB",
+            "MethodName": "fourCasesTodayAccount",
+            "Outcome": "Pass",
+            "ApexClass": {
+                "attributes": {
+                    "type": "ApexClass",
+                    "url": "/services/data/v48.0/tooling/sobjects/ApexClass/01p2w00000AafmeAAB"
+                },
+                "Id": "01p2w00000AafmeAAB",
+                "Name": "MaxCasesTest",
+                "NamespacePrefix": null
+            },
+            "RunTime": 760,
+            "FullName": "MaxCasesTest.fourCasesTodayAccount"
+        }
+    ]
+}
