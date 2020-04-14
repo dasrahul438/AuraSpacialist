@@ -5,10 +5,14 @@ public with sharing class ManagedApexBatch implements Database.Batchable<sObject
         accountIds=ids;
     }
 
+    public ManagedApexBatch(){
+        accountIds=null;
+    }
+
     public Database.QueryLocator start(Database.BatchableContext bc){
-        String queryString='SELECT ID,OwnerId,AccountId FROM CONTACT';
+        String queryString='SELECT ID,OwnerId,AccountId FROM CONTACT ';
         if(accountIds!=null){
-            queryString+=' WHERE AccountId in:accountIds';
+            queryString+=' WHERE AccountId In:accountIds';
         }
       return Database.getQueryLocator(queryString);
     }
@@ -17,7 +21,9 @@ public with sharing class ManagedApexBatch implements Database.Batchable<sObject
         Set<Id> scopeAccountIds=new Set<Id>();
 
         for(Contact con:scope){
-            scopeAccountIds.add(con.AccountId);
+            if(con.AccountId!=null){
+                scopeAccountIds.add(con.AccountId);
+            }
         }
 
         Map<Id, Account> changedAccountsMap=new Map<Id,Account>([SELECT ID,OwnerId FROM ACCOUNT WHERE Id in:scopeAccountIds]);
