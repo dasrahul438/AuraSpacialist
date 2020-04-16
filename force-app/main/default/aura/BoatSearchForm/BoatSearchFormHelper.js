@@ -4,7 +4,7 @@
         
         action.setCallback(this, function(response) {
             var state = response.getState(); 
-            console.log('response is: '+response.getReturnValue());
+           // console.log('response is: '+response.getReturnValue());
             if (state === "SUCCESS"){
                 component.set("v.boatTypes", response.getReturnValue());
             }

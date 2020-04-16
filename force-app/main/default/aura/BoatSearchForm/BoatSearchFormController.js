@@ -37,10 +37,10 @@
         })
         formsubmit.fire();
     },
-    optionChange: function(component, event, helper) {
-        var boatTypeId = component.find("boatTypeSelect").get("v.value");
-        console.log('boat type Id: '+boatTypeId);
+    // optionChange: function(component, event, helper) {
+    //     var boatTypeId = component.find("boatTypeSelect").get("v.value");
+    //     console.log('boat type Id: '+boatTypeId);
 
-    }
+    // }
 })
         

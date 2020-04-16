@@ -26,7 +26,7 @@ public with sharing class ManagingApex1Test {
 
             List<Contact> contacts=[SELECT ID,OwnerId from Contact];
             for(Contact con:contacts){
-                System.assertNotEquals(u.Id, con.OwnerId,'Both are not Equal');
+                System.assertEquals(u.Id, con.OwnerId,'Both are Equal');
             }
 
         }
@@ -46,10 +46,9 @@ public with sharing class ManagingApex1Test {
         Database.insert(accounts,dml);
 
         List<Contact> contacts=new List<Contact>();
-
         for(Account act:accounts){
             for(Integer c=0;c<contactsPerAccount;c++){
-                contacts.add(new Contact(FirstName='Rahul'+String.valueOf(c),LastName='Das'+String.valueOf(c),AccountId=act.Id));
+                contacts.add(new Contact(FirstName='Rahul' +String.valueOf(c),LastName='Das'+String.valueOf(c),AccountId=act.Id));
             }
         }
         Database.insert(contacts,dml);
